@@ -15,7 +15,7 @@ a:hover {
 }
 
 .jumbotron {
-    padding: 70px 30px;
+    padding: 60px 30px;
     margin:  0 auto;
     background: #ff6a6a;
     color: floralwhite
@@ -33,6 +33,11 @@ a:hover {
     min-height: 400px
 }
 
+.row-reserve{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .footer {
     background: linear-gradient(158deg, #dc47c4, #ff8f8f);
     margin: 0 auto;
@@ -45,3 +50,10 @@ address {
     color: #0f0f0f
 }
 
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
