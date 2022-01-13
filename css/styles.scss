@@ -2,7 +2,7 @@
 $lt-gray: #ddd;
 $background-dark: #be44aa;
 $background-light: #ff6a6a;
-$background-pale: #D1C4E9;
+$background-pale: #ffabab;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -15,6 +15,12 @@ $carousel-item-height: 300px;
 // -----------------------------------
 
 
+a { color: #112 }
+a:hover { 
+    color:#4f4f4f;
+    text-decoration: none
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -26,7 +32,7 @@ $carousel-item-height: 300px;
 }
 
 .footer{
-    background-color: $background-pale;
+    background: linear-gradient(158deg, $background-dark, $background-light);
     @include zero-margin(20px, 0px);
 }
 
@@ -61,8 +67,7 @@ body{
 
 // Nesting Selectors
 .carousel {
-    background:$background-dark;
-
+        background: linear-gradient(11deg, $background-dark, $background-light);
     .carousel-item {
         height: $carousel-item-height;
         img {
@@ -79,4 +84,14 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+// Modal
+.modal{
+    .modal-header {
+        background-color: $background-dark;
+        .modal-title {color: floralwhite;}
+        button {color: floralwhite}
+    }
+    .modal-body{background: $background-pale;}
 }

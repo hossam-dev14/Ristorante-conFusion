@@ -1,3 +1,10 @@
+a {
+  color: #112; }
+
+a:hover {
+  color: #4f4f4f;
+  text-decoration: none; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -9,7 +16,7 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background: linear-gradient(158deg, #be44aa, #ff6a6a);
   margin: 0px auto;
   padding: 20px 0px; }
 
@@ -38,7 +45,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #be44aa; }
+  background: linear-gradient(11deg, #be44aa, #ff6a6a); }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -52,3 +59,13 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal .modal-header {
+  background-color: #be44aa; }
+  .modal .modal-header .modal-title {
+    color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background: #ffabab; }
